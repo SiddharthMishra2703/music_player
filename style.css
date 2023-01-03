@@ -65,7 +65,7 @@ body{
     font-size: 1.2rem;
 }
 
-#shuffle, #repeat{
+.not_click{
     color: gray;
 }
 
@@ -91,10 +91,15 @@ body{
 .hide{
     display: none;
 }
-/* #songs_list{
+
+.long{
     height: 100%;
     overflow-y: scroll;
-} */
+}
+
+.click{
+    color: #2887e3;
+}
 
 .song_details{
     display: flex;
