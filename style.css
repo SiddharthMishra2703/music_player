@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to bottom, #2887e3 50%, #16191e 50%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: white;
+    width: 22rem;
+    height: 34.5rem;
+    border-radius: 0.5rem;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+.songs_list_button{
+    display: flex;
+    justify-content: right;
+}
+.songs_list_button button{
+    border: none;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+#song_img{
+    width: 90%;
+}
+
+#song_name{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#singer_name{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.controller{
+    display: flex; 
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.controller button{
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+#play, #pause{
+    height: 2.3em;
+    width: 2.3em;
+    font-size: 1.6em;
+    border-radius: 50%;
+    background-color: #2887e3;
+    color: #ffffff;
+}
+
+#backward_step, #forward_step{
+    font-size: 1.2rem;
+}
+
+#shuffle, #repeat{
+    color: gray;
+}
+
+#progress_bar{
+    width: 100%;
+    height: 0.3rem;
+    background-color: #eee;
+}
+
+#current_progress{
+    background-color: #2887e3;
+    width: 0%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.time_container{
+    display: flex; 
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.hide{
+    display: none;
+}
+/* #songs_list{
+    height: 100%;
+    overflow-y: scroll;
+} */
+
+.song_details{
+    display: flex;
+    text-align: left;
+}
+
+.song_details div{
+    margin: 1.8rem;
+}
+
+.song_details img{
+    margin: auto 0;
+    width: 4rem;
+    height: 4rem;
+}
+
+.songs_name{
+    font-weight: 600;
+}
+
+.songs_singer{
+    color: rgb(101, 101, 101);
+    font-size: 0.8rem;
+}

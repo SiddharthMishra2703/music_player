@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/77df94ea7c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="hide" id="songs_list">
+            <div class="songs_list_button">
+                <button id="songs_list_close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div id="dynamic_playlist"></div>
+        </div>
+
+        <!-- Music Player HTML Code -->
+        <div class="" id="music_player">
+            <div class="songs_list_button">
+                <button id="songs_list_open">
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+            </div>
+            <img id="song_img" src="https://www.dropbox.com/s/crlthbozdznb13g/perfect.jpeg?raw=1" alt="song img">
+            <div class="song_detail">
+                <p id="song_name">Perfect</p>
+                <p id="singer_name">Ed Sheeran</p>
+            </div>
+            <div class="controller">
+                <button id="shuffle">
+                    <i class="fa-solid fa-shuffle"></i>
+                </button>
+                <button id="backward_step">
+                    <i class="fa-solid fa-backward-step"></i>
+                </button>
+                <button id="play">
+                    <i class="fa-solid fa-play"></i>
+                </button>
+                <button class="hide" id="pause">
+                    <i class="fa-solid fa-pause"></i>
+                </button>
+                <button id="forward_step">
+                    <i class="fa-solid fa-forward-step"></i>
+                </button>
+                <button id="repeat">
+                    <i class="fa-solid fa-repeat"></i>
+                </button>
+            </div>
+            <div id="progress_bar">
+                <div id="current_progress"></div>
+            </div>
+            <div class="time_container">
+                <span id="current_time">00:00</span>
+                <span id="max_duration">00:00</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
